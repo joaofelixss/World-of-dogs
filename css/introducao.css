@@ -1,0 +1,40 @@
+.introducao{
+  max-width: 100%;
+  background: #167bf7;
+  padding: 40px;
+  display: grid;
+  text-align: center;
+  justify-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.boas-vindas{
+  max-width: 80ch;
+}
+
+.contanier-blocos{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 40px;
+  gap: 40px;
+  padding: 40px;
+  font-size: 1.5rem;
+}
+
+.bloco{
+  display: grid;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  padding: 40px;
+  background: #fff;
+  color: black;
+  border-radius: 10px;
+}
+
+.esclarecimento{
+  max-width: 80ch;
+  font-weight: bold;
+}

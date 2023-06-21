@@ -1,0 +1,40 @@
+.historia-dogs {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 20% 50% 30%;
+  padding: 40px;
+}
+
+.fotos-dogs li{
+  width: 200px;
+  height: 200px;
+  padding: 20px ;
+}
+
+.conteudo{
+  text-align: start;
+}
+
+.conteudo h1{
+  text-align: start;
+  color: #167bf7;
+  font-size: 5rem;
+}
+
+.bloco-personalidade {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+}
+
+.bloco1 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background: #167bf7;
+  padding: 20px;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
