@@ -6,7 +6,7 @@
   text-align: center;
   justify-items: center;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .boas-vindas{
@@ -15,19 +15,21 @@
 
 .contanier-blocos{
   display: grid;
+  justify-content: center;
   grid-template-columns: 33% 33% 33%;
   margin-top: 40px;
   gap: 40px;
-  padding: 40px;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 40px;
 }
 
 .bloco{
   display: grid;
+  justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 350px;
   text-align: center;
+  width: 200px;
+  height: 180px;
   padding: 40px;
   background: #fff;
   color: black;

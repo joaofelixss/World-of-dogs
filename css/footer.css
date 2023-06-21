@@ -1,0 +1,58 @@
+.contanier-footer {
+  display: grid;
+  justify-content: center;
+  padding: 40px;
+  background-image: url('/img/baixados.jpg');
+}
+.conteudo-footer{
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.conteudo-footer h1 {
+  font-size: 1.5rem;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  border: none;
+}
+
+input{
+  margin-bottom: 15px;
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.menssagem{
+  grid-column: 2;
+  height: 200px;
+}
+
+.submit {
+  display: block;
+  color: black;
+  background: #f3ef07;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.submit:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.copy {
+  display: grid;
+  justify-content: center;
+  color: #167bf7;
+  padding: 40px;
+  font-size: 1rem;
+}
