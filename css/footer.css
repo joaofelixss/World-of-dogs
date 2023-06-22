@@ -2,22 +2,26 @@
   display: grid;
   justify-content: center;
   padding: 40px;
-  background-image: url('/img/baixados.jpg');
+  background-image: url('/img/english-bulldog-5422018_1280.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .conteudo-footer{
   color: #fff;
   background: rgba(0, 0, 0, 0.7);
   padding: 40px;
   border-radius: 10px;
+  height: 80vh;
 }
 
 .conteudo-footer h1 {
   font-size: 1.5rem;
 }
 
-.formulario {
+form{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 10px;
   padding: 40px;
   border: none;
 }
@@ -28,25 +32,26 @@ input{
   padding: 20px;
   border-radius: 10px;
   border: none;
+  margin-bottom: 50px;
 }
 
 .menssagem{
-  grid-column: 2;
-  height: 200px;
+  height: 10vh;
 }
 
 .submit {
   display: block;
   color: black;
+  font-weight: bold;
   background: #f3ef07;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
   border: none;
+  width: 10vh;
 }
 .submit:hover {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.9);
+  opacity: 0.7;
 }
 
 .copy {

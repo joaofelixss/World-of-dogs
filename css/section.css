@@ -1,28 +1,24 @@
 .historia-dogs {
   display: grid;
-  justify-items: start;
-  grid-template-columns: 30% 70%;
-  padding: 40px;
-  height: 100vh;
+  grid-template-columns: 32% 68%;
+  padding: 40px 20px 0px 20px;
+  height: 92vh;
 }
 .fotos-dogs ul {
   display: grid;
   justify-items: right;
-  height: 100vh;
-  width: 50vh;
 }
 
 .fotos-dogs li {
   display: grid;
   align-items: center;
-  width: 33vh;
-  height: 33vh;
+  width: 29vh;
+  height: 28.5vh;
   padding: 20px;
 }
 
 .conteudo {
   text-align: start;
-  height: 100vh;
 }
 
 .conteudo h1 {
@@ -36,9 +32,8 @@
   justify-items: start;
   align-items: center;
   padding: 0px 40px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 40% 60%;
   color: #fff;
-  margin-bottom: 20px;
 }
 
 .personalidade h1 {
@@ -68,37 +63,42 @@
 }
 
 .foto p {
-  max-width: 80ch;
+  text-align: start;
+  font-weight: 600;
+  max-width: 70ch;
   margin-bottom: 40px;
 }
 .foto img {
-  max-width: 100vh;
+  max-width: 80vh;
 }
 
 /*conhecendo dogs*/
 .conhecendo-dogs {
   display: grid;
   justify-items: center;
-  height: 80vh;
-  margin-top: 40px;
-  padding: 40px;
+  height: 67vh;
+  padding: 0px 20px;
 }
 
 .conhecendo-dogs p {
-  max-width: 80ch;
+  max-width: 95ch;
 }
 
 .especificacao {
   display: grid;
   justify-content: center;
+  text-align: center;
   grid-template-columns: 1fr 1fr;
-  margin-top: 40px;
+  gap: 20px;
 }
 
 .especificacao img {
   max-width: 50vh;
 }
-
+.blocos-especificacao{
+  display: grid;
+  justify-items: center;
+}
 .blocos-especificacao p {
   max-width: 50ch;
 }
