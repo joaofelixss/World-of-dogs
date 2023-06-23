@@ -4,10 +4,10 @@ World of Dogs é uma aplicação Front-End web e mobile construída por min com 
 
 A aplicação consiste em uma Landing page biasica, onde as pessoas possam navegar o site de forma simples e prática, o site também conta com o formato mobile.
 
-## Layout mobile
-
-
 ## Layout web
+<div>
+  <img src="baixados.jpg">
+</div>
 
 # Tecnologias utilizadas
 
