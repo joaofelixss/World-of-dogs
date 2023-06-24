@@ -2,12 +2,12 @@
   display: grid;
   justify-content: center;
   padding: 40px;
-  background-image: url('/img/english-bulldog-5422018_1280.jpg');
+  background-image: url("/img/english-bulldog-5422018_1280.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.conteudo-footer{
+.conteudo-footer {
   color: #fff;
   background: rgba(0, 0, 0, 0.7);
   padding: 40px;
@@ -19,14 +19,14 @@
   font-size: 1.5rem;
 }
 
-form{
+form {
   display: grid;
   gap: 10px;
   padding: 40px;
   border: none;
 }
 
-input{
+input {
   margin-bottom: 15px;
   display: block;
   padding: 20px;
@@ -35,7 +35,7 @@ input{
   margin-bottom: 50px;
 }
 
-.menssagem{
+.menssagem {
   height: 10vh;
 }
 
@@ -60,4 +60,17 @@ input{
   color: #167bf7;
   padding: 40px;
   font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .conteudo-footer {
+    height: 75vh;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+  .submit {
+    padding: 15px;
+    font-size: 1rem;
+  }
 }

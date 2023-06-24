@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script> document.documentElement.className += ' js';</script>
 </head>
 
 <body>
@@ -68,8 +69,8 @@
     </div>
   </section>
 
-  <section class="historia-dogs" id="animais">
-    <div class="fotos-dogs">
+  <section class="historia-dogs" id="animais" data-anime="scroll" data-tab="content">
+    <div class="fotos-dogs" data-tab="menu">
       <ul>
         <li><img src="/img/english-bulldog-5422018_1280.jpg" alt="buldogue-inglês"></li>
         <li><img src="/img/pastor-alemao-caracteristicas-guia-racas.jpg" alt="pastor-alemão"></li>
@@ -77,7 +78,7 @@
       </ul>
     </div>
 
-    <div class="conteudo">
+    <div class="conteudo" data-anime="show-right">
       <div class="personalidade">
         <h1>Buldog</h1>
         <div class="bloco-personalidade">
@@ -100,7 +101,7 @@
 
   </section>
 
-  <section class="conhecendo-dogs">
+  <section class="conhecendo-dogs" data-anime="show-right">
     <div class="historia">
       <p>Nos Países Baixos uma lei foi aprovada em 2014 a respeito de criação de cães
         braquicefálicos. Esta lei neerlandesa proíbe a criação de cães com focinhos muito curtos
@@ -148,7 +149,7 @@
     <h1 class="copy">world of dogs @2023. Alguns direitos reservados</h1>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script type="module" src="js/script.js"></script>
 </body>
 
 </html>
