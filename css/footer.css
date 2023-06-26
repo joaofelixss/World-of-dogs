@@ -62,7 +62,7 @@ input {
   font-size: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1150px) {
   .conteudo-footer {
     height: 75vh;
   }

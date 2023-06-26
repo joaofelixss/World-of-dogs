@@ -39,7 +39,7 @@
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1150px) {
   .header {
     padding: 20px 40px;
   }
@@ -56,22 +56,22 @@
     position: absolute;
     width: 100%;
     top: 70px;
-    right: 0px;
-    background: #051932;
+    right: 20px;
+    background: #000;
     height: 0;
     transition: 0.6s;
     z-index: 1000;
     visibility: hidden;
     overflow-y: hidden;
-    border: #ffba05 solid 2px;
+    border: #fff solid 2px;
     border-radius: 10px;
   }
   #nav.ativo .menu {
     visibility: visible;
     overflow-y: auto;
     display: block;
-    height: 16vh;
-    width: 20vh;
+    height: 17vh;
+    width: 14vh;
   }
   .menu a {
     color: #fff;
